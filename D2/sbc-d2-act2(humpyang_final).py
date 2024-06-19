@@ -2,7 +2,7 @@ from random import randint
 
 print("THIS IS HUMPYANG GAME!")
 
-player_1 = input("Choose [FOLD or UNFOLD]: ").strip().upper()
+player_1 = input("Choose [FOLD or UNFOLD]: ")
 
 print(f"Player_1: {player_1}")
 
