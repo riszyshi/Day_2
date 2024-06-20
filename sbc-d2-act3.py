@@ -6,7 +6,7 @@ user_bet = input("Place your 3-digit bet: ")
 
 print(f"Your 3-digit bet: {user_bet}")
 
-winning_num = ''.join([str(randint(0, 9)) for _ in range(3)])
+winning_num = ([str(randint(0, 9)) for _ in range(3)])
 
 print(f"The winning number is: {winning_num}")
 
