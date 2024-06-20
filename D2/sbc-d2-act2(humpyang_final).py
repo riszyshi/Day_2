@@ -20,11 +20,11 @@ else:
     pc_3 = "UNFOLD"
 print(f"Player_Comp3: {pc_3}")
 
-if player_1 == "UNFOLD" and pc_2 == "UNFOLD" and pc_3 == "UNFOLD":
+if player_1 == "UNFOLD" and pc_2 == "UNFOLD" and pc_3 == "UNFOLD" or player_1 == "FOLD" and pc_2 == "FOLD" and pc_3 == "FOLD":
     print("Result: Draw!")
-elif player_1 == "UNFOLD" and pc_2 == "FOLD" and pc_3 == "FOLD":
+elif player_1 == "UNFOLD" and pc_2 == "FOLD" and pc_3 == "FOLD" or player_1 == "FOLD" and pc_2 == "UNFOLD" and pc_3 == "UNFOLD":
     print("Result: You Won")
-elif player_1 == "FOLD" and pc_2 == "UNFOLD" and pc_3 == "FOLD":
+elif player_1 == "FOLD" and pc_2 == "UNFOLD" and pc_3 == "FOLD" or player_1 == "UNFOLD" and pc_2 == "FOLD" and pc_3 == "UNFOLD":
     print("Result: Player Computer 2 Won")
-elif player_1 == "FOLD" and pc_2 == "FOLD" and pc_3 == "UNFOLD":
+elif player_1 == "FOLD" and pc_2 == "FOLD" and pc_3 == "UNFOLD" or player_1 == "UNFOLD" and pc_2 == "UNFOLD" and pc_3 == "FOLD":
     print("Result: Player Computer 3 Won")
